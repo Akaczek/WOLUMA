@@ -1,0 +1,81 @@
+.answersContainer {
+  width: 100%;
+  /* background-color: rgba(239, 233, 244, 0.5); */
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 10px;
+  margin: 10px 20px;
+  height: 500px;
+}
+
+.singleAnswerContainer {
+  width: 45%;
+  height: 40%;
+  margin: 0 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 5px 0 rgba(78, 74, 74, 0.5);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.answerLabel {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  margin: 0 20px;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.answerText {
+  font-size: 2.5rem;
+  display: block;
+  width: 80%;
+  margin: auto 0;
+  word-wrap: break-word;
+}
+
+.ytVideo {
+  visibility: hidden;
+}
+
+.questionContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  height: 100%;
+  /* background-color: blue; */
+  /* color: white; */
+  font-size: 4rem;
+  margin-bottom: 30px;
+  /* font-weight: bold; */
+  text-align: center;
+}
+
+.class0 {
+  background-color: var(--answer-A-color);
+}
+.class1 {
+  background-color: var(--answer-B-color);
+}
+.class2 {
+  background-color: var(--answer-C-color);
+}
+.class3 {
+  background-color: var(--answer-D-color);
+}
+
+.classWrong {
+  background-color: rgb(248, 45, 45);
+}
+.classCorrect {
+  background-color: var(--answer-A-color);
+}
